@@ -1,0 +1,231 @@
+body {
+	background: cornsilk;
+	margin: 0 auto;
+	display: block;
+	font-family: Georgia; 
+}
+h1{
+	color:navy;
+	text-align:center;
+}
+footer{
+	text-align: center;
+	font-size: 1em;
+	background-color: #F5EBBA;
+	color:navy;
+	padding: 5px;
+}
+/*nav bar*/
+header{
+	background-color: #F5EBBA;
+	color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.nav ul{
+	list-style-type: none; 
+}
+.nav li {
+	display: inline; 
+	padding: 8px; 
+	background-color: white; 
+	margin-right:5px; 
+	border-style: solid;
+	border-width: 2px;
+	border-color: navy;
+}
+.nav li a {
+	text-decoration:none; 
+	color:navy; 
+	font-size:20px;
+}
+
+/*index section*/
+.welcome h1{
+	font-size: 3em;
+	margin: 10px;
+	color: navy;
+}
+.welcome h2{
+	text-align: center;
+	font-size: 2em;
+	margin: 5px 0;
+	padding-bottom: 10px;
+	color: navy;
+}
+.main{
+	text-align: center;
+	padding: 5px 50px;
+	display: block;
+	font-family: Courier New;
+} 
+.main h3{
+	font-size: 1.3em;
+}
+.main p{
+	max-width: 700px;
+	margin: 20px auto;
+	font-size: 1.1em;
+}
+.index img{
+	width: 65%;
+	height: auto;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+.index {
+	text-align:center; 
+	font-size:12px; 
+	margin-bottom: 50px;
+}
+
+/*About Us Section*/
+.theTeam, .whyLIS{
+	padding: 5px 50px;
+	display: block;
+	max-width: 950px;
+	margin: 5px auto;
+}
+.theTeam h1, .whyLIS h1{
+	font-size: 2em;
+}
+.column {
+	float: left;
+	text-align:center;
+	width: 30%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.column h3 {
+	color:navy;
+}
+.column img {
+	width:70%;
+	height:auto;
+	border-radius:80%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: navy;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.theTeam .row{
+	display:flex;
+}
+h3 {color:navy}
+
+/*resource page*/
+.centered-video {
+    display: block;
+    margin: 20px auto; 
+}
+
+.text {text-align: center; font-size 30px:
+		padding: 5px 50px;
+}
+
+.text {
+    max-width: 800px;  /* Limits the width of the content */
+    margin: 20px auto; /* Centers the content on the page */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;  /* Increases readability */
+    padding: 10px;
+}
+
+.text h2 {
+    font-size: 24px;
+    text-align: center; /* Centers the heading */
+    margin-bottom: 20px;
+}
+
+.text ol {
+    list-style-type: decimal; /* Ordered list with numbers */
+}
+
+.text ol li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.text ul {
+    margin-top: 10px;
+    list-style-type: disc; /* Bullet points for sub-lists */
+}
+
+.text ul li {
+    margin-left: 20px; /* Indent bullet points */
+    font-size: 16px;
+}
+/* Container for video and image */
+.video-and-image-container {
+    display: flex;
+    justify-content: center;  /* Center the video and image container */
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;                /* Adds spacing between video and image */
+    flex-wrap: wrap;          /* Allow items to wrap on smaller screens */
+    text-align: center;       /* Center text inside the container */
+}
+
+/* Ensure both video and image containers are properly sized and centered */
+.IBT, .image-container {
+    flex-basis: auto;          /* Prevent flex from resizing them unevenly */
+    display: inline-block;
+    text-align: center;
+}
+
+/* Specific sizes for the video */
+.IBT iframe {
+    width: 560px;              /* Maintain intended video width */
+    height: 315px;             /* Maintain intended video height */
+}
+
+/* Adjust image size to match video height */
+.image-container img {
+    width: auto;
+    height: 315px;             /* Set height same as video */
+    object-fit: contain;       /* Prevent distortion of the image */
+}
+
+/* Align the "More Resources" section */
+.AdditionalResources {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.AdditionalResources ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.AdditionalResources li {
+    margin: 10px 0;             /* Vertical spacing between links */
+}
+
+.AdditionalResources a {
+    text-decoration: none;
+    color: #000;
+}
+
+.AdditionalResources a:hover {
+    text-decoration: underline;
+}
+
+/*tech hero page*/
+.hero{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.hero h4, .hero h3{
+	color:navy;
+}
+.hero .row{
+	display: flex;
+}
